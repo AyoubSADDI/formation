@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <!--------------link for icon---------------->
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  <!--------------link for badge--------------->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!--------------link for css ---------------->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <meta charset="UTF-8">
+  <title>OnlineShop - Contact</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="">
+        <a href="./index.html">
+          <img alt="logo" src="./assets/img/logo.svg" title="Accueil" class="img-logo">
+        </a>
+        <li><a href="./index.html" >Accueil</a></li>
+        <li><a href="./products.html">Produits</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a href="./shopping-cart.html"><i class="fas fa-shopping-cart icon-cart-navbar"></i><span class="w3-badge w3-red">3</span></a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article class="container order">
+      <h1>Commande</h1>
+      <form id="order-form" action="./confirmation.html" method="post">
+        <section>
+          <h2>Contact</h2>
+          <div class="row">
+            <div class="col">
+              <label for="first-name">Prénom</label><br>
+              <input id="first-name" name="first-name" type="text" placeholder="Prénom" required>
+            </div>
+            <div class="col">
+              <label for="last-name">Nom</label><br>
+              <input id="last-name" name="last-name" type="text" placeholder="Nom" required>    
+            </div>
+            <div class="col">
+              <label for="email">Adresse courriel</label><br>
+              <input id="email" name="email" type="email" placeholder="Adresse courriel" required>    
+            </div>
+            <div class="col">
+              <label for="phone">Téléphone</label><br>
+              <input id="phone" name="phone" type="tel" placeholder="###-###-####" required>
+            </div>
+          </div>
+          
+         
+         
+         
+        </section>
+        <section>
+          <h2>Paiement</h2>
+         <div class="row">
+          <div class="col">
+            <label for="credit-card">Numéro de carte de crédit</label><br>
+            <input id="credit-card" name="credit-card" type="text" placeholder="•••• •••• •••• ••••" required>  
+          </div>
+          <div class="col">
+            <label for="credit-card-expiry">Expiration (mm/aa)</label><br>
+            <input id="credit-card-expiry" name="credit-card-expiry" type="text" placeholder="mm/aa" required>
+          </div>
+         </div>
+        </section>
+        <button type="submit">Payer <i class="fas fa-angle-double-right"></i></button>
+      </form>
+      <div class="push"></div>
+    </div>
+    </article>
+  </main>
+  <footer>
+    <p>Par Antoine Béland et Konstantinos Lambrou-Latreille</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,317 @@
+:root{
+    --maincolor:#14597f;
+    --secondecolor: #1fb5e9;
+}
+
+/***********************navbar******************/
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ nav li a.active {
+    background-color: var(--secondecolor);
+    border-radius: 4px;
+    padding: 10px;
+  }
+
+ nav ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: var(--maincolor);
+    height: 60px;
+    margin: 0;
+    border-bottom: 1px #0b2d3d solid;
+  }
+  nav ul li{
+    list-style: none;
+  }
+  nav  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .img-logo{
+    width: 200px;
+    height: 50px;
+    margin-right: 63rem;
+}
+.icon-cart-navbar{
+    color:var(--maincolor);
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+.w3-red {
+    position: relative;
+    top: 8px;
+    right: 10px;
+    padding: 2px 6px;
+    font-size: 10px;
+}
+
+/*****************************acticle********************************/
+#home-img{
+    float: right;
+    width: 530px;
+    height: 400px;
+    margin-right: 55px;
+}
+h1{
+    display: inline-flex;
+    font-weight: bold;
+}
+article{
+    margin: 20px;
+}
+.btn{
+    background-color: var(--maincolor);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border:1px #0b2d3d solid;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.btn:hover{
+    background-color:var(--secondecolor) ;
+    transition: 0.2s ease-out ;
+}
+/*****************footer*********************/
+.push {
+  height: 332px;
+}
+footer{
+    text-align: center;
+    background-color: #eeeeee;
+    border-top: 1px #cccccc solid;
+    padding: 10px;
+}
+footer p {
+    margin: 0;
+}
+/****************************************products**************************/
+/**********************filtre********************/
+.flex-container{
+    display: flex;
+}
+.flex-container h2{
+  font-weight: 600;
+}
+.item1{
+    flex-basis: 25%;
+    padding: 30px;
+}
+.item2{
+    flex-basis: 75%;
+}
+#product-categories{
+    border: 1px solid #999999; 
+    border-radius: 4px;
+}
+#product-categories button{
+    background-color: transparent;
+    border: 1px solid #999999; 
+    color: black;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    width: 100%;
+    display: block; 
+}
+#product-categories button:hover {
+    background-color: #f3f3f3;
+    transition: 0.2s ease-out ;
+  }
+  #product-categories button:focus {
+    background-color: #ddf2fb;
+  }
+
+#product-criteria{
+    border: 1px solid #999999; 
+    border-radius: 4px;
+}
+#product-criteria button{
+    background-color: transparent;
+    border: 1px solid #999999; 
+    color: black;
+    padding: 10px 20px; 
+    cursor: pointer; 
+    width: 100%;
+    display: block; 
+}
+#product-criteria button:hover {
+    background-color: #f3f3f3;
+    transition: 0.2s ease-out ;
+  }
+  #product-criteria button:focus {
+    background-color: #ddf2fb;
+  }
+/***************************product********************************/
+.item2 p {
+    float: right;
+}
+#products-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#products-list img{
+    width: 100%;
+}
+#products-list a{
+    border: 1px solid #999999;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width: 31%;
+    text-decoration: none;
+}
+#products-list a:hover{
+    background-color: #f3f3f3;
+    transition: 0.2s ease-out ;
+}
+#products-list a p{
+   float: right;
+}
+#products-list a h4{
+    font-weight: 600;
+ }
+
+/*******************************article-product****************************/
+.article-product h1 {
+    margin-left: 10px;
+}
+.article-product h2 {
+    font-weight: 600;
+}
+.row{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 10px;
+}
+.container {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.article-product form {
+   float: right;
+}
+ button{ 
+    background-color: var(--maincolor);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border:1px #0b2d3d solid;
+    border-radius: 4px;
+    font-size: 12px;
+}
+button:hover{
+    background-color:var(--secondecolor) ;
+    transition: 0.2s ease-out ;
+}
+.form-control{
+    border:1px solid #999999;
+    border-radius: 4px;
+    padding: 7px;
+    width: 55px;
+}
+.border-form{
+    border-bottom: 1px #999999 dotted;
+    margin-bottom: 10px;
+}
+.article-product .push{
+    height: 36px;
+}
+/**********************contact***************************/
+.contact{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0;
+}
+.icon-contact{
+    font-size: 70px;
+}
+.contact-section{
+    margin: 10px 35px;
+}
+.contact-section .push{
+    height: 153px;
+}
+/***************************shopping-card********************/
+thead{
+    border-bottom: 1px solid #000000;
+}
+tbody{
+    border-bottom: 1px solid #000000;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: justify;
+}
+table button{
+    background-color: #dddddd;
+    padding: 10px 13px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border:none;
+    border-radius: 50%;
+    font-size: 10px;
+    font-weight: 800;
+}
+table button:hover{
+ background-color: #bbbbbb;
+
+}
+tr{
+height: 50px;
+}
+.cart p{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+.btn-commander{
+    float: right;
+    background-color: var(--maincolor);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border:1px #0b2d3d solid;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.cart .push{
+    height: 108px;
+}
+/*************************order******************************/
+.order input{
+    width: 90%;
+    border: 1px solid #999999;
+    border-radius: 4px;
+    height: 30px;
+    margin: 10px 0;
+}
+label {
+    font-weight: 600;
+}
+.order button{
+    float: right;
+}
+.order .push{
+    height: 60px;
+}
+.order h2{
+    font-weight: 600;
+}
+/**********************confirmation***************/
+#confi .push{
+    height: 353px;
+}
